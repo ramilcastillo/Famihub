@@ -1,0 +1,42 @@
+﻿''
+'' Structure: Form caption\Type\Shortcut code\Form class
+'' Type:  F = Form (standard, accessible through menu), S = System form (core forms, not in menu)
+''
+'' Program package defined as: *PACKAGECODE\PACKAGEDESCRIPTION*
+''
+*SYS\FamiHub System*
+Icon selector\S\SYSICON\FHCore.IconSelector
+Configuration: menu's\F\SYSMEN01\FHCore.MenuForm
+Configuration: user groups\F\SYSUSR02\FHCore.UserGroupForm
+Users\F\SYSUSR01\FHCore.UserList
+User detail\S\SYSUSR03\FHCore.UserForm
+Errors\F\SYSERR\FHCore.Errors
+Countries\F\SYSCNTRY\FHCore.CountryList
+Country detail\S\SYSCNTRYD\FHCore.CountryForm
+Form translations\F\SYSFRMTRL\FHCore.FormTranslations
+Message translations\F\SYSMSGTRL\FHCore.MessageTranslations
+Save & restore translations\F\SYSSAVTRL\FHCore.SaveRestoreTranslations
+Log viewer\F\SYSLOG\FHCore.LogViewer
+Mail Setting\F\SYSMAIL\FHCore.MailSettingsForm
+System settings\F\SYSSET\FHCore.Configuration
+*BTC\ExpenseNotes*
+Expense Notes\F\BTCEXPENSENOTES\ExpenseNotes.ExpenseNotesForm
+Approval Workflow\F\BTCWORKFLOW\ExpenseNotes.Workflow
+Work Flow Create\F\BTCWORKFLOWCREATE\ExpenseNotes.WorkflowCreateForm
+Workflow Detail\S\BTCWORKFLOWFORM\ExpenseNotes.WorkflowForm
+Expense Notes Request\F\BTCEXPENSENOTESREQUESTS\ExpenseNotes.ExpenseNotesRequests
+Expense Notes Detail\S\BTCEXPENSENOTESDETAIL\ExpenseNotes.ExpenseNotesDetailForm
+*BTC\Customer*
+Customers\F\BTCCUS01\Customers.CustomerList
+Customer detail\S\BTCCUS02\Customers.CustomerForm
+Loyalty partners\F\BTCLOP01\Customers.LoyaltyPartnerList
+Loyalty partner detail\S\BTCLOP02\Customers.LoyaltyPartnerForm
+Add loyalty transaction\S\BTCCLT01\Customers.AddLoyaltyTransaction
+Use loyalty points\S\BTCCLT02\Customers.UseLoyaltyPoints
+Generate loyalty card numbers\F\BTCCRD01\Customers.GeneratePhysicalCardsFile
+*LOG\Logistics*
+Planning details\S\LOGPL02\Logistics.AddPlanningRow
+Planning\F\LOGPL01\Logistics.PlanningList
+Planning: dashboard\F\LOGPL03\Logistics.PlanningDashboard
+Planning: dashboard: location\S\LOGPL04\Logistics.PlanningDashboardLocationSelector
+Planning: locations\F\LOGPL05\Logistics.PlanningLocations
